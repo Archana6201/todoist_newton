@@ -1,38 +1,101 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*:before,
+*:after{
+    box-sizing: border-box;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body{
+    background-color: white;
+    font-family: "Roboto" , sans-serif;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+nav{
+    background-color: pink;
+    box-shadow: 0px 2px 2px black;
+    height: 100%;
 }
-
-.App-link {
-  color: #61dafb;
+.nav-img{
+    height: 100%;
+    max-width: 922px;
+    display: flex;
+    margin-left: 30%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+img{
+    margin: 6px;
+    height: 22px;
+}
+.content{
+    display: flex;
+    max-width: 944px;
+    margin-left: 30%;
+}
+.sidebar{
+    user-select: none;
+    width: 222px;
+    height: 100vh;
+    padding-top: 74px;
+    border-right: 1px solid #f2f2f2;
+}
+.sidebar div{
+    margin-bottom: 10px;
+    cursor: pointer;
+    padding: 15px;
+}
+.active{
+    background-color: rgb(255, 192, 203);
+}
+.fas{
+    margin-right: 10px;
+}
+.far{
+    margin-right: 10px;
+}
+.tasks{
+    padding: 74px 20px 0;
+    height: 100vh;
+    width: calc(944px - 522px);
+}
+.add-task-btn{
+    cursor: pointer;
+}
+.plus{
+    color: red;
+    font-size: 18px;
+}
+.add-task-text{
+    color: #545454;
+    margin-left: 15px;
+}
+.task-dialogue input{
+    width: 100%;
+    border-radius: 3px;
+    height: 25px;
+    padding-left: 10px;
+    border: 1px solid #545454;
+}
+.btn-task-action{
+  margin: 10px;
+}
+.btn-task-action button{
+    margin-right: 8px;
+}
+.Add-btn{
+    background-color: pink;
+    border: 1px solid black;
+    border-radius: 2px;
+    border: none;
+    height: 24px;
+    width: 80px;
+}
+.cancel-btn{
+    border: 1px solid black;
+    border-radius: 2px;
+    border: none;
+    height: 24px;
+    width: 80px;
+}
+.content{
+    margin-left: 20%;
 }
