@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Archana6201/todoist_newton.git/static/css/main.4806461c.chunk.css",
+    "main.js": "/Archana6201/todoist_newton.git/static/js/main.a7ec1d99.chunk.js",
+    "main.js.map": "/Archana6201/todoist_newton.git/static/js/main.a7ec1d99.chunk.js.map",
+    "runtime-main.js": "/Archana6201/todoist_newton.git/static/js/runtime-main.806fa82d.js",
+    "runtime-main.js.map": "/Archana6201/todoist_newton.git/static/js/runtime-main.806fa82d.js.map",
+    "static/js/2.25bd6571.chunk.js": "/Archana6201/todoist_newton.git/static/js/2.25bd6571.chunk.js",
+    "static/js/2.25bd6571.chunk.js.map": "/Archana6201/todoist_newton.git/static/js/2.25bd6571.chunk.js.map",
+    "index.html": "/Archana6201/todoist_newton.git/index.html",
+    "static/css/main.4806461c.chunk.css.map": "/Archana6201/todoist_newton.git/static/css/main.4806461c.chunk.css.map",
+    "static/js/2.25bd6571.chunk.js.LICENSE.txt": "/Archana6201/todoist_newton.git/static/js/2.25bd6571.chunk.js.LICENSE.txt",
+    "static/media/all.min.css": "/Archana6201/todoist_newton.git/static/media/fa-solid-900.efbd5d20.eot"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.806fa82d.js",
+    "static/js/2.25bd6571.chunk.js",
+    "static/css/main.4806461c.chunk.css",
+    "static/js/main.a7ec1d99.chunk.js"
+  ]
+}
